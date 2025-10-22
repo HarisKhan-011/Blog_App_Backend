@@ -1,42 +1,35 @@
-# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+# Build Folders
+bin/
+obj/
 
-# Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Node
-/node_modules
-npm-debug.log
-yarn-error.log
+# Visual Studio folder
+.vs/
 
-# IDEs and editors
-.idea/
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+# IIS Express
+.vscode/
+.vsconfig
+*.vspscc
+*.vssscc
 
-# Visual Studio Code
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-.history/*
+# Logs
+*.log
 
-# Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+# Environment files
+appsettings.*.local.json
 
-# System files
-.DS_Store
-Thumbs.db
+# Node (if you have any Node tooling)
+node_modules/
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.cache
+*.swp
+*.lock.json
+config.bat
